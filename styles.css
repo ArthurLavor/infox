@@ -1,0 +1,22 @@
+
+  
+  body{
+    --white: #FFFFFF;
+    --background: #FAFAFA;
+    --border-primary: #e6e6e6;
+    --black: #000000;
+    --button-primary: #0095f6;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: gray;
+  }
+
+    .lista{
+        font-size: 15px;
+  }
+  
