@@ -1,19 +1,12 @@
-*{
-
-    outline: 0;
-    box-sizing: border-box;
-
-}
-
-body{
+body.main{
     font-family: 'Roboto', sans-serif;
     color: #ffff;
     margin: 0;
     padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+div.container{
+   margin: 0;
 }
 
 .nav{
@@ -47,6 +40,32 @@ html{
 
 /*fim header
 /*fim main */
+h1.apresentacao{
+    color: #000;
+    font-size: 14px;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer p {
+    margin-left: 12px;
+}
 
 body.todo-list{
     font-family: Arial, sans-serif;
@@ -74,18 +93,11 @@ ul.todo-list-ul{
 }
 
 body.anotacoes-html{
-    background-color: #000;
+    background-color: #000000;
     align-items: center;
     padding: 0;
     outline: 0;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-
-}
-
-h1.apresentacao{
-    color: #000;
-    font-size: 14px;
-    padding: 0 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
