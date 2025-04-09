@@ -112,6 +112,6 @@ body.main {
     padding: 0;
     outline: 0;
     text-decoration: none;
-    display: flex;
+    display: column;
     align-items: center;
   }
